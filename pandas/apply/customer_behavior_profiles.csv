@@ -1,0 +1,16 @@
+customer_id,customer_id,total_spent,total_profit,transaction_count,avg_transaction_value,first_purchase,last_purchase,recency_days,avg_days_between_purchases,purchase_frequency_per_week,favorite_category,favorite_product,avg_discount_used,customer_segment,profit_margin_pct
+CUST328,CUST328,6123.96,1819.22,2,3061.98,2024-01-01 12:00:00,2024-01-07 14:00:00,1,6.0,2.0,Accessories,Keyboard,0.0,High Value New,29.71
+CUST429,CUST429,3811.21,785.24,2,1905.6,2024-01-02 09:00:00,2024-01-09 00:00:00,0,6.0,2.0,Software,Laptop,10.0,High Value New,20.6
+CUST447,CUST447,1891.74,322.1,2,945.87,2024-01-02 18:00:00,2024-01-06 14:00:00,2,3.0,2.0,Electronics,Mouse,7.5,High Value New,17.03
+CUST472,CUST472,8892.84,2368.87,2,4446.42,2024-01-02 02:00:00,2024-01-02 15:00:00,6,0.0,2.0,Accessories,Keyboard,2.5,High Value New,26.64
+CUST500,CUST500,4008.47,734.81,2,2004.24,2024-01-07 09:00:00,2024-01-08 23:00:00,0,1.0,2.0,Electronics,Keyboard,12.5,High Value New,18.33
+CUST534,CUST534,5855.37,1012.68,2,2927.68,2024-01-07 18:00:00,2024-01-08 07:00:00,1,0.0,2.0,Software,Phone,10.0,High Value New,17.29
+CUST775,CUST775,3126.12,654.04,2,1563.06,2024-01-01 13:00:00,2024-01-02 19:00:00,6,1.0,2.0,Accessories,Phone,5.0,High Value New,20.92
+CUST784,CUST784,10491.69,2668.1,2,5245.84,2024-01-01 01:00:00,2024-01-06 05:00:00,3,5.0,2.0,Electronics,Phone,2.5,High Value New,25.43
+CUST831,CUST831,8382.01,2149.73,2,4191.0,2024-01-03 02:00:00,2024-01-03 12:00:00,5,0.0,2.0,Electronics,Laptop,10.0,High Value New,25.65
+CUST863,CUST863,5406.94,935.02,2,2703.47,2024-01-01 11:00:00,2024-01-07 22:00:00,1,6.0,2.0,Accessories,Keyboard,7.5,High Value New,17.29
+CUST870,CUST870,7737.22,1304.87,2,3868.61,2024-01-05 14:00:00,2024-01-06 23:00:00,2,1.0,2.0,Software,Laptop,5.0,High Value New,16.86
+CUST897,CUST897,6573.91,1334.07,2,3286.96,2024-01-04 02:00:00,2024-01-08 04:00:00,1,4.0,2.0,Accessories,Phone,15.0,High Value New,20.29
+CUST914,CUST914,2051.06,585.77,2,1025.53,2024-01-01 05:00:00,2024-01-03 22:00:00,5,2.0,2.0,Electronics,Keyboard,15.0,High Value New,28.56
+CUST952,CUST952,8027.35,2583.35,2,4013.68,2024-01-04 16:00:00,2024-01-07 15:00:00,1,2.0,2.0,Accessories,Laptop,5.0,High Value New,32.18
+CUST985,CUST985,7400.93,1661.0,2,3700.46,2024-01-01 08:00:00,2024-01-02 04:00:00,7,0.0,2.0,Accessories,Mouse,5.0,High Value New,22.44

@@ -1,0 +1,52 @@
+======================================================================
+GROUPBY + APPLY ANALYSIS SUMMARY REPORT
+======================================================================
+
+EXECUTION DETAILS
+----------------------------------------
+Script executed at: 2026-01-20 11:21:31
+Script directory: C:\Users\Admin\Documents\universe\github\python\pandas\apply
+Sample data rows: 200
+Sample data columns: 14
+Date range: 2024-01-01 to 2024-01-09
+
+ANALYSIS PERFORMED
+----------------------------------------
+1. Region Performance Analysis
+   - Regions analyzed: 4
+   - Metrics calculated: 12
+   - Top region by sales: North ($201769.70)
+
+2. Category Normalization
+   - Categories processed: 3
+   - Outliers detected: 6
+   - New columns added: 6
+
+3. Customer Behavior Analysis
+   - Customers analyzed: 15
+   - Customer segments identified: 1
+   - VIP customers: 0
+
+4. Product Analysis by Region (FIXED)
+   - Product-region combinations: 24
+   - Products analyzed: 6
+
+5. Anomaly Detection
+   - Total anomalies detected: 1
+   - Anomaly rate: 0.50%
+   - Most anomalous category: Software (1.69%)
+
+FILES GENERATED
+----------------------------------------
+[OK] sample_sales_data.csv                         Original sample dataset                  (19.6 KB)
+[OK] region_performance_analysis.csv               Region performance metrics               (0.5 KB)
+[OK] normalized_sales_by_category.csv              Normalized sales data with outliers      (34.8 KB)
+[OK] customer_behavior_profiles.csv                Customer behavior profiles               (2.3 KB)
+[OK] detailed_product_analysis_by_region.csv       Product analysis by region               (2.1 KB)
+[OK] anomaly_detection_results.csv                 Detailed anomaly detection results       (34.4 KB)
+[OK] anomaly_summary.csv                           Anomaly detection summary                (0.2 KB)
+[OK] groupby_apply_summary_report.txt              This summary report                      (0.0 KB)
+
+======================================================================
+SCRIPT COMPLETED SUCCESSFULLY
+======================================================================

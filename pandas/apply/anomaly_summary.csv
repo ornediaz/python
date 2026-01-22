@@ -1,0 +1,4 @@
+category,total_transactions,anomaly_count,anomaly_score,anomaly_pct
+Accessories,61,0,28.31113208885136,0.0
+Electronics,80,0,27.90693108602695,0.0
+Software,59,1,27.32356129812321,1.69

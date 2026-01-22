@@ -1,0 +1,5 @@
+region,total_sales,total_profit,profit_margin_pct,avg_transaction_value,unique_customers,avg_sale_per_customer,transaction_count,high_value_transactions,avg_discount_pct,product_variety,peak_hour,performance_tier
+East,101035.74,25932.239999999998,25.67,2806.55,36,2806.55,36,18,5.56,6,6,Excellent
+North,201769.69999999998,49295.64,24.43,3057.12,65,3104.15,66,33,4.39,6,5,Good
+South,154864.29,40801.96,26.35,2765.43,55,2815.71,56,28,7.05,6,23,Excellent
+West,105150.16999999998,27073.070000000003,25.75,2503.58,41,2564.64,42,21,6.79,6,16,Excellent
