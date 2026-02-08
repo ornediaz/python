@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+
+import random
+import time
+
+# ---- CONFIG ----
+TIME_LIMIT = 600        # seconds (10 minutes)
+MAX_NUMBER = 50
+OPS = ["+", "-", "*"]
+# ----------------
+
+def make_question():
+    a = random.randint(1, MAX_NUMBER)
+    b = random.randint(1, MAX_NUMBER)
+    op = random.choice(OPS)
+
+    if op == "+":
+        return f"{a} + {b}", a + b
+    elif op == "-":
+        return f"{a} - {b}", a - b
+    else:
+        return f"{a} * {b}", a * b
+
+def main():
+    start = time.time()
+    answered = 0
+
+    print("Mental arithmetic drill")
+    print("Press Enter to SKIP")
+    print("Ctrl+C to quit early\n")
+
+    while True:
+        if time.time() - start >= TIME_LIMIT:
+            break
+
+        q, ans = make_question()
+        print(q, end=" = ", flush=True)
+
+        try:
+            user = input()
+        except KeyboardInterrupt:
+            break
+
+        if user.strip() == "":
+            # skipped
+            continue
+
+        try:
+            if int(user) == ans:
+                answered += 1
+        except ValueError:
+            pass  # ignore invalid input
+
+    elapsed = int(time.time() - start)
+    print("\n--- DONE ---")
+    print(f"Time: {elapsed}s")
+    print(f"Correct answers: {answered}")
+
+if __name__ == "__main__":
+    main()
+
